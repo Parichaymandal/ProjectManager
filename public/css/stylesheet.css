@@ -1,0 +1,28 @@
+#label
+{
+	margin-bottom:5px;
+	font-size:20px;
+	align:center;
+	margin-left:5px;
+}
+#image
+{
+	height:80px;
+	 width:80px;
+	 margin-left:0px;
+	 margin-right:5px;
+	 margin-top:10px;
+}
+#file
+{
+	height:80px;
+	 width:80px;
+	 margin-left:0px;
+	 margin-right:5px;
+	 margin-top:10px;
+}
+
+#footer
+{
+	align:"center"
+}

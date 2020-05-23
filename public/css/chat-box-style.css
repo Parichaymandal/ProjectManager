@@ -1,0 +1,40 @@
+.charSection {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 500px;
+    background-color: #CEDDDB;
+    border-radius: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .charSection {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 500px;
+        background-color: #CEDDDB;
+        border-radius: 10px;
+    }
+}
+
+.charMessages {
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .charMessages {
+        text-align: center;
+        margin-top: 10%;
+    }
+}
+
+.chatMessageInputBox {
+    margin-top: 10px;
+}
+
+.chatButtons {
+    margin-top: 10px;
+}

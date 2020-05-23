@@ -1,0 +1,209 @@
+footer
+{
+    margin-top: 40px;
+    color: whitesmoke;
+    height: 50px;
+    background-color: black;
+}
+/*PROFILE CARD*/
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("unknown.jpg");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.bottom .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+
+.profile
+{
+    height: 380px;
+    background-color: black;
+}
+
+/*END OF PROFILE CARD*/
+
+/*JOB CARD*/
+
+.jobCard
+{
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.split .jobCard
+{
+    height: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.descTitle
+{
+    height: 40px;
+    background-color: #41b5ff;
+    align-items: center;
+}
+
+.overview .table thead td
+{
+    height: auto;
+}
+.overview .table tbody tr
+{
+    height: auto;
+}
+
+/*END OF JOB CARD*/
+
+/*MAIN PAGE*/
+
+#background
+{
+
+    height :600px;
+    width: 1390px;
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: right top;
+    padding-top:0;
+    margin-top:0;
+}
+#Textbackground
+{
+    height: 100px;
+    width:1390px;
+    background-color:rgb(255,255,255);
+    font-size: 50px;
+    color:rgb(0,0,0);
+
+}
+#input
+{
+    height:10px;
+    width:80px
+
+
+}
+#main_text_box
+{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+#size
+{
+
+    font-size: 40px;
+    color:rgb(255,255,255);
+}
+#sizeofP
+{
+    font-size: 20px;
+    color:rgb(255,255,255);
+}
+#main_text
+{
+    margin-top: 200px;
+    margin-left: 100px;
+    height:900px;
+    width:750px;
+
+}
+#sizeBkText
+{
+    margin-left:0px;
+    margin-right: 100px;
+    text-align:center;
+
+}
+#sizeOfnotiText
+{
+    font-size: 30px;
+
+}
+#alignOfbutton
+{
+ align-content: center;
+}
+
+
+
+/*END OF MAIN PAGE*/
